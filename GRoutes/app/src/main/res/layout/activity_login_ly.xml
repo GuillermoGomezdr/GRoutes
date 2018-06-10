@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.example.willy.GRoutes.Login_ly"
+    android:background="@drawable/background_v13">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/txt_UserName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="5dp"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="45dp"
+            android:textColor="@color/darkerBlue"
+            android:textAlignment="center"
+            android:background="@drawable/frame_ly"
+            android:textColorHint="@color/grayBlue"
+            android:colorAccent="@color/colorWhiteDirty"
+            android:maxLength="12"
+            />
+
+        <EditText
+            android:id="@+id/txt_Password"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/frame_ly"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@color/darkerBlue"
+            android:textColorHint="@color/grayBlue"
+            android:maxLength="12"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Login"
+                android:layout_width="95dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:onClick="OnLogin"
+                android:text="Login"
+                android:textColor="@color/fondoPopUp"
+                android:background="@drawable/darkblue_button"/>
+
+            <Button
+                android:id="@+id/btn_Register"
+                android:layout_width="95dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:onClick="OnRegisterClick"
+                android:text="Register"
+                android:textColor="@color/fondoPopUp"
+                android:background="@drawable/darkblue_button"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

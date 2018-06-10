@@ -1,0 +1,115 @@
+<FrameLayout xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        tools:context="org.example.willy.GRoutes.org.example.willy.GRoutes.MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/clean_32"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:onClick="cleanRoute"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/search_blue_32"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:onClick="loadRoute"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/save_32"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:onClick="saveRoute"/>
+
+        <ImageButton
+            android:id="@+id/btn_setCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/center_32"
+            android:layout_weight="1"
+            android:background="@drawable/blue_button"
+            android:onClick="setCamera"/>
+
+        <!--<Button
+            android:id="@+id/SetCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="@drawable/darkblue_button"
+            android:onClick="setCamera"
+            android:text="SC" />
+
+        <Button
+            android:id="@+id/LoadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="@drawable/darkblue_button"
+            android:onClick="loadRoute"
+            android:text="L" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="@drawable/darkblue_button"
+            android:onClick="saveRoute"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/cleanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:background="@drawable/darkblue_button"
+            android:onClick="cleanRoute"
+            android:text="C" />-->
+    </LinearLayout>
+
+
+    <!--
+    <Button
+        android:id="@+id/RecalculateRoute"
+        android:layout_width="30pt"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:onClick="recalculateRoute"
+        android:text="RR"
+        android:layout_marginLeft="120pt"/>
+        -->
+
+
+</FrameLayout>
+

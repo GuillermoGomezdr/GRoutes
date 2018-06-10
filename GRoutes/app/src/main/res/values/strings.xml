@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">G-Routes</string>
+    <string name="title_activity_maps">G-Routes</string>
+    <string name="username">Username</string>
+
+    <string-array name="category">
+        <item>Sin categoría</item>
+        <item>Arquitectura</item>
+        <item>Arte Urbano</item>
+        <item>Bar</item>
+        <item>Lugar de interés</item>
+        <item>Monumento</item>
+        <item>Museo</item>
+        <item>Restaurante</item>
+        <item>Tienda</item>
+        <item>Otro</item>
+    </string-array>
+</resources>

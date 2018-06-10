@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRed">#ff3943</color>
+    <color name="colorRedDark">#801b20</color>
+    <color name="colorGreenLight">#abffc0</color>
+    <color name="colorGreen">#247b37</color>
+    <color name="colorGreen2">#3eb959</color>
+    <color name="colorWhite">#ffff</color>
+    <color name="colorWhiteDirty">#eaeaea</color>
+    <color name="colorBrownLight">#f7bfa9</color>
+    <color name="fondoPopUp">#477d9f</color>
+
+    <color name="darkBlue">#1d5678</color>
+    <color name="darkerBlue">#13384f</color>
+    <color name="grayBlue">#466578</color>
+
+    <color name="transpart">#00ffffff</color>
+
+</resources>
